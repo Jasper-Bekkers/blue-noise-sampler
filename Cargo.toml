@@ -3,5 +3,20 @@ name = "blue-noise-sampler"
 version = "0.1.0"
 authors = ["Jasper-Bekkers <bekkers@gmail.com>"]
 edition = "2018"
+description = "This crate provides a rust version of the A Low-Discrepancy Sampler that Distributes Monte Carlo Errors as a Blue Noise in Screen Space sample code"
+license = "MIT"
+readme = "README.md"
+keywords = ["rendering", "bluenoise", "blue", "noise", "sampler", "sampling"]
+include = [
+    "src/*.rs",
+    "Cargo.toml"
+]
+
+documentation = "https://docs.rs/blue-noise-sampler"
+homepage = "https://github.com/Jasper-Bekkers/blue-noise-sampler"
+repository = "https://github.com/Jasper-Bekkers/blue-noise-sampler"
+
+[badges]
+maintenance = { status = "actively-developed" }
 
 [dependencies]
