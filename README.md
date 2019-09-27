@@ -27,7 +27,7 @@ float samplerBlueNoise(int pixel_i, int pixel_j, int sampleIndex, int sampleDime
 	sampleDimension = sampleDimension & 255;
 
 	// xor index based on optimized ranking
-    // jb: 1spp blue noise has all 0 in g_blueNoiseRankingTile so we can skip the load
+	// jb: 1spp blue noise has all 0 in g_blueNoiseRankingTile so we can skip the load
 	int rankedSampleIndex = sampleIndex ^ g_blueNoiseRankingTile[sampleDimension + (pixel_i + pixel_j*128)*8];
 
 	// fetch value in sequence
