@@ -6,7 +6,7 @@ edition = "2018"
 description = "This crate provides a rust version of the A Low-Discrepancy Sampler that Distributes Monte Carlo Errors as a Blue Noise in Screen Space sample code"
 license = "MIT"
 readme = "README.md"
-keywords = ["rendering", "bluenoise", "blue", "noise", "sampler", "sampling"]
+keywords = ["rendering", "bluenoise", "blue", "noise", "sampling"]
 include = [
     "src/*.rs",
     "Cargo.toml"
